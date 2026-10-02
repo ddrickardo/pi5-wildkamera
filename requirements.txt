@@ -1,0 +1,16 @@
+# Auf dem Raspberry Pi 5 installieren mit:
+#   pip install -r requirements.txt --break-system-packages
+#
+# Zusätzlich über apt (nicht über pip installierbar, systemnah):
+#   sudo apt install -y python3-picamera2
+# picamera2, libcamera und gpiozero sind auf Raspberry Pi OS bereits
+# vorinstalliert bzw. kommen über apt, nicht über pip.
+
+python-dotenv
+azure-iot-device
+azure-storage-blob
+ultralytics
+opencv-python-headless
+ncnn
+pyserial
+numpy
